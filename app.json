@@ -1,7 +1,7 @@
 {
-  "name": "Virtual-Userbot",
-  "description": "A Remix of Userbots on Github By @InukaASiTH",
-  "logo": "https://telegra.ph/file/4e1364fb18f899ad47dec.png",
+  "name": "Perman-Userbot",
+  "description": "A Remix of Userbots on Github By @Perman_X",
+  "logo": "https://telegra.ph/file/07f2d9a43562b26f1ba76.png",
   "keywords": [
     "telegram",
     "virtualuserbot",
@@ -9,9 +9,9 @@
     "telegram-virtualuserbot",
     "productivity"
   ],
-  "repository": "https://github.com/inukaasith/virtualuserbot",
+  "repository": "https://github.com/perman-dev/perman_ub",
   "website": "starkgang.ml",
-  "success_url": "t.me/FridayOT",
+  "success_url": "t.me/Perman_x",
   "stack": "container",
   "env": {
     "ENV": {
@@ -108,19 +108,19 @@
     },
      "ALIVE_IMAGE": {
       "description": "Enter Image URL for bot pic ",
-      "value": "https://telegra.ph/file/4e1364fb18f899ad47dec.png",
+      "value": "https://telegra.ph/file/07f2d9a43562b26f1ba76.png",
       "required": false
     },
      "PMPERMIT_PIC": {
       "description": "Enter Image URL for bot's pmsecurity pic ",
-      "value": "https://telegra.ph/file/4e1364fb18f899ad47dec.png",
+      "value": "https://telegra.ph/file/07f2d9a43562b26f1ba76.png",
       "required": false
     },    
     
     
     "TZ": {
       "description": "Required for Correct Time on autopic",
-      "value": "Asia/Colombo",
+      "value": "Asia/Kolkata",
       "required": false
     }
   },
