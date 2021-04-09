@@ -86,7 +86,7 @@ else:
         ms = (end - start).microseconds / 1000
         uptime = get_readable_time((time.time() - Lastupdate))
         await starkislub.edit(
-            f"**🙈I'm Online, Master ⚙🔧** \n **ᵐʸ ᶜᵘʳʳᵉⁿᵗ ᵖᶦⁿᵍʳᵃᵗᵉ**👇 \n \n ⚡️ `{ms}` \n ⚡️ `{uptime}`"
+            f"**🤖ɪ'ᴍ Rᴜɴɴɪɴɢ Mᴀsᴛᴇʀ ⚙🔧** \n **ᵐʸ ᶜᵘʳʳᵉⁿᵗ ᵖᶦⁿᵍʳᵃᵗᵉ**👇 \n \n -🏃‍♀️ `{ms}` \n -⏱️ `{uptime}`"
         )
 
 
