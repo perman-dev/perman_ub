@@ -149,7 +149,7 @@ if ENV:
         TAG_LOG = os.environ.get("TAG_LOG", None)
         DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
         ENABLE_ASSISTANTBOT = os.environ.get("ENABLE_ASSISTANTBOT", "ENABLE")
-        EMOJI_TO_DISPLAY_IN_HELP = os.environ.get("EMOJI_TO_DISPLAY_IN_HELP", "🔥")
+        EMOJI_TO_DISPLAY_IN_HELP = os.environ.get("EMOJI_TO_DISPLAY_IN_HELP", "🍫")
         TAG_FEATURE = os.environ.get("TAG_FEATURE", "DISABLE")
         JTM_CHANNEL_ID = int(os.environ.get("JTM_CHANNEL_ID", False))
         JTM_CHANNEL_USERNAME = os.environ.get("JTM_CHANNEL_USERNAME", None)
@@ -162,14 +162,14 @@ if ENV:
         GPLINKS_API_KEY = os.environ.get("GPLINKS_API_KEY", None)
         OPEN_LOAD_KEY = os.environ.get("OPEN_LOAD_KEY", None)
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/inukaasith/virtualuserbot"
+            "UPSTREAM_REPO", "https://github.com/perman-dev/perman-ub"
         )
         ALIVE_IMAGE = os.environ.get(
-            "ALIVE_IMAGE", "https://telegra.ph/file/4e1364fb18f899ad47dec.png"
+            "ALIVE_IMAGE", "https://telegra.ph/file/07f2d9a43562b26f1ba76.png"
         )
         ASSISTANT_START_PIC = os.environ.get(
             "ASSISTANT_START_PIC",
-            "https://telegra.ph/file/4e1364fb18f899ad47dec.png",
+            "https://telegra.ph/file/ec8444be9b494560f58d9.jpg",
         )
         TESSDATA_PREFIX = os.environ.get(
             "TESSDATA_PREFIX", "/usr/share/tesseract-ocr/4.00/tessdata"
