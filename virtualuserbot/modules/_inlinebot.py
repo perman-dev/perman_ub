@@ -17,11 +17,11 @@ from virtualuserbot.modules import inlinestats
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-    WARN_PIC = "https://telegra.ph/file/0e7a45ed44e17ce68d8cd.png"
+    WARN_PIC = "https://telegra.ph/file/1f02034b3c0f902f3297e.png"
 else:
     WARN_PIC = PMPERMIT_PIC
 LOG_CHAT = Config.PRIVATE_GROUP_ID
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "VirtualUserbot"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "PermanUserbot"
 
 if lang == "si":
 
@@ -43,11 +43,11 @@ if lang == "si":
         elif event.query.user_id == bot.uid and query == "stats":
             result = builder.article(
                 title="Stats",
-                text=f"**Showing Stats For {DEFAULTUSER}'s VirtualUserbot** \nNote --> Only Owner Can Check This \n(C) [VirtualUserbot](https://github.com/inukaasith/virtualuserbot)",
+                text=f"**Showing Stats For {DEFAULTUSER}'s VirtualUserbot** \nNote --> Only Owner Can Check This \n(C) [PermanUserbot](https://github.com/permanx/perman_ub)",
                 buttons=[
                     [custom.Button.inline("Show Stats ?", data="terminator")],
-                    [Button.url("Developed By", "https://github.com/Inukaasith")],
-                    [Button.url("Support Chat❤️", "t.me/InfinityJE")],
+                    [Button.url("Developed By", "https://github.com/permanx")],
+                    [Button.url("Support ❤️", "t.me/Perman_X")],
                 ],
             )
             await event.answer([result])
@@ -149,7 +149,7 @@ if lang == "si":
         yt_dl_data = event.data_match.group(1).decode("UTF-8")
         link_s = yt_dl_data
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own VirtualUserbot And Don't Waste My Resources"
+            text = f"Please Get Your Own PermanUserbot And Don't Waste My Resources"
             await event.answer(text, alert=True)
             return
         is_it = True
@@ -160,7 +160,7 @@ if lang == "si":
         sun = event.data_match.group(1).decode("UTF-8")
 
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own Friday And Don't Waste My Resources"
+            text = f"Please Get Your Own PermanUserbot And Don't Waste My Resources"
             await event.answer(text, alert=True)
             return
         await _deezer_dl(sun, event, tgbot)
@@ -170,7 +170,7 @@ if lang == "si":
         yt_dl_data = event.data_match.group(1).decode("UTF-8")
         link_s = yt_dl_data
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own VirtualUserbot And Don't Waste My Resources"
+            text = f"Please Get Your Own PermanUserbot And Don't Waste My Resources"
             await event.answer(text, alert=True)
             return
         is_it = False
@@ -180,7 +180,7 @@ if lang == "si":
     async def rip(event):
         link_s = event.pattern_match.group(1)
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own VirtualUserbot And Don't Waste My Resources."
+            text = f"Please Get Your Own PermanUserbot And Don't Waste My Resources."
             await event.answer(text, alert=True)
             return
         await _phdl(link_s, event, tgbot)
@@ -193,8 +193,8 @@ if lang == "si":
             return
         await event.get_chat()
         him_id = event.query.user_id
-        text1 = "ඔයා ඇවිත් තියෙන්නෙ හොඳ දේකට නෙමේ.. ඔයා තෝරපු එක පිළිගන්න බෑ.. ඒක නිසා ඔයාව Block කරනවා"
-        await event.edit("ඔයා තෝරපු එක පිළිගන්න බෑ ❌")
+        text1 = "You have not come for a good cause. Your choice cannot be accepted"
+        await event.edit("Your choice cannot be accepted ❌")
         await borg.send_message(event.query.user_id, text1)
         await borg(functions.contacts.BlockRequest(event.query.user_id))
         await borg.send_message(
@@ -301,7 +301,7 @@ else:
         builder = event.builder
         result = None
         query = event.text
-        if event.query.user_id == bot.uid and query.startswith("VirtualUserbot"):
+        if event.query.user_id == bot.uid and query.startswith("PermanUserbot"):
             rev_text = query[::-1]
             buttons = paginate_help(0, CMD_HELP, "helpme")
             result = builder.article(
@@ -314,15 +314,15 @@ else:
         elif event.query.user_id == bot.uid and query == "stats":
             result = builder.article(
                 title="Stats",
-                text=f"**Showing Stats For {DEFAULTUSER}'s VirualUserbot** \nNote --> Only Owner Can Check This \n(C) @VirtualUserbot",
+                text=f"**Showing Stats For {DEFAULTUSER}'s PermanUserbot** \nNote --> Only Owner Can Check This \n(C) PermanUserbot",
                 buttons=[
                     [custom.Button.inline("Show Stats ?", data="terminator")],
                     [
                         Button.url(
-                            "Repo Here", "https://github.com/inukaasith/virtualuserbot"
+                            "Repo Here", "https://github.com/perman_x/perman_ub"
                         )
                     ],
-                    [Button.url("Join Channel ❤️", "t.me/infinity_bots")],
+                    [Button.url("Help ❤️", "t.me/Perman_x")],
                 ],
             )
             await event.answer([result])
@@ -355,7 +355,7 @@ else:
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_popp_up_alert = "Please get your own Userbot, and don't use mine!"
+            reply_popp_up_alert = "Please Deploy your own Userbot, and don't use mine!"
             await event.answer(reply_popp_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(
@@ -382,7 +382,7 @@ else:
     )
     async def on_plug_in_callback_query_handler(event):
         if not event.query.user_id == bot.uid:
-            sedok = "Who The Fuck Are You? Get Your Own VirtualUserbot ."
+            sedok = "Who The Fuck Are You? Get Your Own PermanUserbot ."
             await event.answer(sedok, cache_time=0, alert=True)
             return
         plugin_name = event.data_match.group(1).decode("UTF-8")
@@ -391,7 +391,7 @@ else:
                 f"**🦹‍♀️ PLUGIN NAME 🦹‍♀️ :** `{plugin_name}` \n{CMD_HELP[plugin_name]}"
             )
         reply_pop_up_alert = help_string
-        reply_pop_up_alert += "\n\n**(C) @VirtualUserbot** ".format(plugin_name)
+        reply_pop_up_alert += "\n\n**(C) PermanUserbot** ".format(plugin_name)
         if len(reply_pop_up_alert) >= 4096:
             crackexy = "`Pasting Your Help Menu.`"
             await event.answer(crackexy, cache_time=0, alert=True)
@@ -455,7 +455,7 @@ else:
     async def rip(event):
         link_s = event.pattern_match.group(1)
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own VirtualUserbot And Don't Waste My Resources."
+            text = f"Please Get Your Own PermanUserbot And Don't Waste My Resources."
             await event.answer(text, alert=True)
             return
         await _phdl(link_s, event, tgbot)
@@ -468,7 +468,7 @@ else:
             return
         await event.get_chat()
         him_id = event.query.user_id
-        text1 = "You Have Chosed A Probhited Option. Therefore, You Have Been Blocked"
+        text1 = "You Have Chosed A Probhited Option. Therefore, You Have Been Blocked Nibba"
         await event.edit("Choice Not Accepted ❌")
         await borg.send_message(event.query.user_id, text1)
         await borg(functions.contacts.BlockRequest(event.query.user_id))
@@ -498,8 +498,8 @@ else:
             return
         await event.get_chat()
         him_id = event.query.user_id
-        await event.edit("Your Choice Accepted ✔️")
-        text2 = "Ok. Please Wait Until My Master will Approve you soon. Don't Spam Here Or Try Anything Stupid. \nThank You For Contacting Me."
+        await event.edit("⚜ Your Choice Accepted Dear ⚜")
+        text2 = "Ok. Please Wait Until My Master Approve you Else You will get block & reported automatically. \nThank You For Contacting Me."
         await borg.send_message(event.query.user_id, text2)
         await borg.send_message(
             LOG_CHAT,
@@ -514,7 +514,7 @@ else:
             return
         await event.get_chat()
         him_id = event.query.user_id
-        await event.edit("CYour hoice is Accepted ✔️")
+        await event.edit("💠 Your Choice is Accepted Sir 💠")
         text3 = "Ok, Wait. My Master will reply you soon. Kindly, Wait."
         await borg.send_message(event.query.user_id, text3)
         await borg.send_message(
@@ -575,7 +575,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="Not Allowded",
-            text=f"You Can't Use This Bot. \nDeploy VirtualUserbot To Get Your Own Assistant, Repo Link [Here](https://github.com/inukaasith/virtualUserbot)",
+            text=f"You Can't Use This Bot. \nDeploy PermanUserbot To Get Your Own Assistant, Repo Link [Here](https://github.com/Permanx/perman_ub)",
         )
         await event.answer([resultm])
         return
@@ -656,7 +656,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="Not Allowded",
-            text=f"You Can't Use This Bot. \nDeploy VirtualUserbot To Get Your Own Assistant, Repo Link [Here](https://github.com/inukaasith/virtualuserbot)",
+            text=f"You Can't Use This Bot. \nDeploy PermanUserbot To Get Your Own Assistant :)",
         )
         await event.answer([resultm])
         return
@@ -710,7 +710,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="Not Allowded",
-            text=f"You Can't Use This Bot. \nDeploy VirtualUserbot To Get Your Own Assistant, Repo Link [Here](https://github.com/inukaasith/virtualuserbot)",
+            text=f"You Can't Use This Bot. \nDeploy PermanUserbot To Get Your Own Assistant, Repo Link [Here](https://github.com/Permanx/Perman_ub)",
         )
         await event.answer([resultm])
         return
@@ -754,7 +754,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="- Not Allowded -",
-            text=f"You Can't Use This Bot. \nDeploy virtualuserbot  To Get Your Own Assistant, Repo Link [Here](https://github.com/inukaasith/virtualuserbot)",
+            text=f"You Can't Use This Bot. \nDeploy PermanUserbot  To Get Your Own Assistant, Repo Link [Here](https://github.com/Permanx/Perman_ub)",
         )
         await event.answer([resultm])
         return
@@ -800,7 +800,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="- Not Allowded -",
-            text=f"You Can't Use This Bot. \nDeploy VirtualUserbot To Get Your Own Assistant, Repo Link [Here](https://github.com/inukaasith/virtualuserbot)",
+            text=f"You Can't Use This Bot. \nDeploy PermanUserbot To Get Your Own Assistant, Repo Link [Here](https://github.com/Permanx/Perman_ub)",
         )
         await event.answer([resultm])
         return
@@ -834,7 +834,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="- Not Allowded -",
-            text=f"You Can't Use This Bot. \nDeploy VirtualUserbot To Get Your Own Assistant, Repo Link [Here](https://github.com/inukaasith/VirtualUserbot)",
+            text=f"You Can't Use This Bot. \nDeploy Perman To Get Your Own Assistant, Repo Link [Here](https://github.com/Permanx/Perman_ub)",
         )
         await event.answer([resultm])
         return
@@ -887,7 +887,7 @@ async def inline_id_handler(event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="- Not Allowded -",
-            text=f"You Can't Use This Bot. \nDeploy Friday To Get Your Own Assistant, Repo Link [Here](https://github.com/StarkGang/FridayUserbot)",
+            text=f"You Can't Use This Bot. \nDeploy Perman To Get Your Own Assistant, Repo Link [Here](https://github.com/Permanx/Perman_ub)",
         )
         await event.answer([resultm])
         return
