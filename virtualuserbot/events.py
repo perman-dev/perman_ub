@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 """ Userbot module for managing events.
- One of the main components of the virtualuserbot. """
+ One of the main components of the Permanuserbot. """
 
 import sys
 from asyncio import create_subprocess_shell as asyncsubshell
