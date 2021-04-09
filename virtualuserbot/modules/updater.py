@@ -17,7 +17,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
 )
 OFFICIAL_UPSTREAM_REPO = Config.UPSTREAM_REPO
 BOT_IS_UP_TO_DATE = (
-    "Yaour userbot >> is up-to-date<< \nIt is recommended to use @FridayOT."
+    "your userbot >> is up-to-date<< \nThanks For Using PermanUserbot."
 )
 NEW_BOT_UP_DATE_FOUND = (
     "New Update Found For {branch_name}\n"
@@ -147,7 +147,7 @@ async def deploy_start(tgbot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
     await asyncio.sleep(2)
     await message.edit(
-        "**UpdatinG Your ubot sir!!!\nPlease WaiT FoR 5-10 mins, modules are loading after that type `.alive` to check if I am On**🤗😅"
+        "**Uᴘᴅᴀᴛɪɴɢ Yᴏᴜʀ Pᴇʀᴍᴀɴ..\nPʟᴇᴀsᴇ Wᴀɪᴛ Fᴏʀ 2-3 ᴍɪɴs , ᴀғᴛᴇʀ ᴛʜᴀᴛ ᴛʏᴘᴇ .alive ᴛᴏ ᴄʜᴇᴄᴋ ɪғ ɪ ᴀᴍ ᴏɴ !**🤗😅"
     )
     await remote.push(refspec=refspec)
     await tgbot.disconnect()
