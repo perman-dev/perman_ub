@@ -13,7 +13,7 @@ from .sql_helper import pmpermit_sql as pmpermit_sql
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-    WARN_PIC = "https://telegra.ph/file/4e1364fb18f899ad47dec.png"
+    WARN_PIC = "https://telegra.ph/file/c9056e6765a83d36386ad.mp4"
 else:
     WARN_PIC = PMPERMIT_PIC
 
@@ -26,7 +26,7 @@ DEFAULTUSER = (
     str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 )
 CUSTOM_MIDDLE_PMP = (
-    str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else f"Protection By {DEFAULTUSER} ❤️"
+    str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else f"- Protected By {DEFAULTUSER} ❤️"
 )
 
 if lang == "si":
@@ -39,7 +39,7 @@ else:
 botisnoob = Var.TG_BOT_USER_NAME_BF_HER
 devs_id = [1141839926, 1263617196, 573738900, 1315076555]
 USER_BOT_NO_WARN = (
-    "**Hello, This is My Master's PM Protection Service ⚠️**\n\n"
+    "**Hello, you  are not get approved yet , please wait of my masteer to response you or you will get block & reported automatically...**\n\n"
     f"`My Master {DEFAULTUSER} is Busy Right Now !` \n"
     "**I Request You To Choose A Reason You Have Came For** 👀 \n\n"
     f"**{CUSTOM_MIDDLE_PMP}**"
