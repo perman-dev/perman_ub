@@ -16,9 +16,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = Config.UPSTREAM_REPO
-BOT_IS_UP_TO_DATE = (
-    "your userbot >> is up-to-date<< \nThanks For Using PermanUserbot."
-)
+BOT_IS_UP_TO_DATE = "your userbot >> is up-to-date<< \nThanks For Using PermanUserbot."
 NEW_BOT_UP_DATE_FOUND = (
     "New Update Found For {branch_name}\n"
     "ChangeLog: \n\n{changelog}\n"
