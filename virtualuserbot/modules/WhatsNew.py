@@ -2,7 +2,7 @@ from virtualuserbot import CMD_HELP
 
 CMD_HELP.update(
     {
-        "Whats New": """**Mini Update 3.1 :** VirtualUserbot New features
+        "Whats New": """**Mini Update 3.1 :** PermanUserbot New features
         Fixed the Errors.
         
         ** Errors and Bug Fixes **
