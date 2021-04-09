@@ -53,8 +53,8 @@ async def start(event):
             vent,
             message=f"Hi Master, It's Me {bot_id}, Your Assistant ! \nWhat You Wanna Do today ?",
             buttons=[
-                [custom.Button.inline("Show Users 🔥", data="users")],
-                [custom.Button.inline("Commands For Assistant", data="gibcmd")],
+                [custom.Button.inline("Show Users 👩‍💻", data="users")],
+                [custom.Button.inline("My Commands 🤖", data="gibcmd")],
                 [
                     Button.url(
                         "Add Me to Group 👥", f"t.me/{bot_username}?startgroup=true"
@@ -90,10 +90,10 @@ async def help(event):
     if event.query.user_id is not bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message="You Can Deploy VirtualUserbot In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
+            message="You Can Deploy PermanUserbot In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
             buttons=[
-                [Button.url("Deploy Tutorial 📺", "https://youtu.be/xfHcm_e92eQ")],
-                [Button.url("Github Repo ❓", "github.com/inukaasith/virtualuserbot")],
+                [Button.url("Deploy Tutorial ✍", "https://t.me/Perman_News/4")],
+                [Button.url("Github Repo ❓", "github.com/perman-dev/perman_ub")],
             ],
         )
 
@@ -122,7 +122,7 @@ async def users(event):
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"gibcmd")))
 async def users(event):
     await event.delete()
-    grabon = "Hello Here Are Some Commands \n➤ /start - Check if I am Alive \n➤ /ping - Pong! \n➤ /tr <lang-code> \n➤ /broadcast - Sends Message To all Users In Bot \n➤ /id - Shows ID of User And Media. \n➤ /addnote - Add Note \n➤ /notes - Shows Notes \n➤ /rmnote - Remove Note \n➤ /alive - Am I Alive? \n➤ /bun - Works In Group , Bans A User. \n➤ /unbun - Unbans A User in Group \n➤ /prumote - Promotes A User \n➤ /demute - Demotes A User \n➤ /pin - Pins A Message \n➤ /stats - Shows Total Users In Bot"
+    grabon = "Hello 👋 , I am a basic assistant bot with some basic features, i can help you in manging your groups. Remember , i will follow most of the your commands only , i will forward others users messages to you who who will start me , check the commands below :\n➤ /start - Probably you already use it \n➤ /ping - Give a pong! message \n➤ /tr <lang-code> \n➤ /broadcast - Sends Message To all Users In Bot \n➤ /id - Shows ID of User And Media. \n➤ /addnote - Add Note \n➤ /notes - Shows Notes \n➤ /rmnote - Remove Note \n➤ /alive - Am I Alive? \n➤ /bun - Works In Group , Bans A User. \n➤ /unbun - Unbans A User in Group \n➤ /prumote - Promotes A User \n➤ /demute - Demotes A User \n➤ /pin - Pins A Message \n➤ /stats - Shows Total Users In Bot"
     await tgbot.send_message(event.chat_id, grabon)
 
 
@@ -223,7 +223,7 @@ async def starkisnoob(event):
 @assistant_cmd("help", is_args=False)
 @peru_only
 async def starkislub(event):
-    grabonx = "Hello Here Are Some Commands \n➤ /start - Check if I am Alive \n➤ /ping - Pong! \n➤ /tr <lang-code> \n➤ /broadcast - Sends Message To all Users In Bot \n➤ /id - Shows ID of User And Media. \n➤ /addnote - Add Note \n➤ /notes - Shows Notes \n➤ /rmnote - Remove Note \n➤ /alive - Am I Alive? \n➤ /bun - Works In Group , Bans A User. \n➤ /unbun - Unbans A User in Group \n➤ /prumote - Promotes A User \n➤ /demute - Demotes A User \n➤ /pin - Pins A Message \n➤ /stats - Shows Total Users In Bot"
+    grabonx = "Hello 👋 , I am a basic assistant bot with some basic features, i can help you in manging your groups. Remember , i will follow most of the your commands only , i will forward others users messages to you who who will start me , check the commands below :\n➤ /start - Probably you already use it \n➤ /ping - Give a pong! message \n➤ /tr <lang-code> \n➤ /broadcast - Sends Message To all Users In Bot \n➤ /id - Shows ID of User And Media. \n➤ /addnote - Add Note \n➤ /notes - Shows Notes \n➤ /rmnote - Remove Note \n➤ /alive - Am I Alive? \n➤ /bun - Works In Group , Bans A User. \n➤ /unbun - Unbans A User in Group \n➤ /prumote - Promotes A User \n➤ /demute - Demotes A User \n➤ /pin - Pins A Message \n➤ /stats - Shows Total Users In Bot"
     await event.reply(grabonx)
 
 
