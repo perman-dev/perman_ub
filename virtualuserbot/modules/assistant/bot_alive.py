@@ -16,19 +16,17 @@ from virtualuserbot import ALIVE_NAME
 from virtualuserbot.modules import currentversion
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
-PM_IMG = "https://telegra.ph/file/0e7a45ed44e17ce68d8cd.png"
-pm_caption = "➥ **ASSISTANT IS:** `ONLINE`\n\n"
+PM_IMG = "https://telegra.ph/file/07f2d9a43562b26f1ba76.png"
+pm_caption = " **¦✵ Assɪsᴛᴀɴᴛ Is Oɴʟɪɴᴇ ✵¦** \n\n"
 pm_caption += "➥ **SYSTEMS STATS**\n"
-pm_caption += "➥ **Telethon Version:** `1.15.0` \n"
-pm_caption += "➥ **Python:** `3.7.4` \n"
-pm_caption += "➥ **Database Status:**  `Functional`\n"
-pm_caption += "➥ **Current Branch** : `master`\n"
-pm_caption += f"➥ **Version** : `{currentversion}`\n"
-pm_caption += f"➥ **My Boss** : {DEFAULTUSER} \n"
-pm_caption += "➥ **Heroku Database** : `AWS - Working Properly`\n\n"
-pm_caption += "➥ **License** : [GNU General Public License v3.0](github.com/StarkGang/FridayUserbot/blob/master/LICENSE)\n"
-pm_caption += "➥ **Copyright** : By [InukaASiTH](GitHub.com/Inukaasith)\n"
-pm_caption += "[Assistant By Inukaasith](https://t.me/Inukaasith)"
+pm_caption += "➥ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ¦** `1.15.0` \n"
+pm_caption += "➥ **Pʏᴛʜᴏɴ:** `3.7.4` \n"
+pm_caption += "➥ **Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs:**  `Functionaing`\n"
+pm_caption += "➥ **Cᴜʀʀᴇɴᴛ Bʀᴀɴᴄʜ** ¦ `Master`\n"
+pm_caption += f"➥ **Vᴇʀsɪᴏɴ** ¦ `{currentversion}`\n"
+pm_caption += f"➥ **Mʏ Bᴏss** ¦ {DEFAULTUSER} \n"
+pm_caption += "➥ **Hᴇʀᴏᴋᴜ Dᴀᴛᴀʙᴀsᴇ** ¦ `AWS - Working Properly`\n\n"
+pm_caption += "➥ **Cᴏᴘʏʀɪɢʜᴛ** ¦ By [Perman](GitHub.com/Perman-dev)\n"
 
 # only Owner Can Use it
 @assistant_cmd("alive", is_args=False)
