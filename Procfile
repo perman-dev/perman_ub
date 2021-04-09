@@ -1,1 +1,1 @@
-worker: python3 virtualbotmain.py
+worker: python3 permanbotmain.py
