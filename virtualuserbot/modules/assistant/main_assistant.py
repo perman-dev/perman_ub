@@ -73,8 +73,8 @@ async def start(event):
             caption=starttext,
             link_preview=False,
             buttons=[
-                [custom.Button.inline("Deploy your VirtualUserbot", data="deploy")],
-                [Button.url("Contact Dev ❓", "t.me/inukaasith")],
+                [custom.Button.inline("Deploy your PermanUserbot", data="deploy")],
+                [Button.url("Contact Dev 😎", "t.me/ElricX")],
             ],
         )
         if os.path.exists(mypic):
