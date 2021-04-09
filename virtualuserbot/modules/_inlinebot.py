@@ -317,11 +317,7 @@ else:
                 text=f"**Showing Stats For {DEFAULTUSER}'s PermanUserbot** \nNote --> Only Owner Can Check This \n(C) PermanUserbot",
                 buttons=[
                     [custom.Button.inline("Show Stats ?", data="terminator")],
-                    [
-                        Button.url(
-                            "Repo Here", "https://github.com/perman_x/perman_ub"
-                        )
-                    ],
+                    [Button.url("Repo Here", "https://github.com/perman_x/perman_ub")],
                     [Button.url("Help ❤️", "t.me/Perman_x")],
                 ],
             )
@@ -468,7 +464,9 @@ else:
             return
         await event.get_chat()
         him_id = event.query.user_id
-        text1 = "You Have Chosed A Probhited Option. Therefore, You Have Been Blocked Nibba"
+        text1 = (
+            "You Have Chosed A Probhited Option. Therefore, You Have Been Blocked Nibba"
+        )
         await event.edit("Choice Not Accepted ❌")
         await borg.send_message(event.query.user_id, text1)
         await borg(functions.contacts.BlockRequest(event.query.user_id))
