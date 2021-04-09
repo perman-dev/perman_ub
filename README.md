@@ -2,29 +2,29 @@
 
 
 <h1 align="center"><b> Virtual-USERBOT 🇱🇰  </b></h1>
-<h4 align="center">A Powerful, Smart And Simple Userbot with 300+ Plugins <br> ... Remodied Friday for Sri Lanka ...</h4>
+<h4 align="center">A Powerful, Smart And Simple Userbot with 300+ Plugins <br> ... Remodied Friday for Better Experience ...</h4>
 
 <p align="center">
-    <a href="https://github.com/Infinity-bots/virtualuserbot/commits/master"><img src="https://img.shields.io/github/last-commit/infinity-bots/virtualuserbot/master?label=Last%20Commit&style=flat-square&logo=github&color=F10070" alt="Commit" /></a>
-    <a href="https://github.com/Infinity-bots/virtualuserbot/stargazers"><img src="https://img.shields.io/github/stars/infinity-bots/virtualuserbot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
-    <a href="https://github.com/Infinity-bots/virtualuserbot/network/members"><img src="https://img.shields.io/github/forks/infinity-bots/virtualuserbot?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
+    <a href="https://github.com/perman-dev/perman_ub/commits/master"><img src="https://img.shields.io/github/last-commit/perman-dev/perman_ub/master?label=Last%20Commit&style=flat-square&logo=github&color=F10070" alt="Commit" /></a>
+    <a href="https://github.com/perman-dev/perman_ub/stargazers"><img src="https://img.shields.io/github/stars/perman-dev/perman_ub?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    <a href="https://github.com/perman-dev/perman_ub/network/members"><img src="https://img.shields.io/github/forks/perman-dev/perman_ub?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
 </p>
 
-<p align="center"><a href="https://techwizardent.com/blog/twe_blog_userbot.php"><img src="https://telegra.ph/file/4e1364fb18f899ad47dec.png" width="400"></a></p> 
+<p align="center"><a href="https://techwizardent.com/blog/twe_blog_userbot.php"><img src="https://telegra.ph/file/07f2d9a43562b26f1ba76.png" width="400"></a></p> 
 
 
 ### BASED ON FRIDAY v7. 
 
 ### BTW FRIDAY USERBOT v8 AVAILABLE BY NOW. A POWERFUL AND SECURE USERBOT BUILD FROM SCRATCH
-### https://github.com/devsexpo/fridayuserbot
+### [Friday](https://github.com/devsexpo/fridayuserbot)
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Inukaasith/virtualuserbot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/perman-dev/perman_ub)
 
 ## HEROKU ERROR FIXED. BTW USE FRIDAY INSTEAD
 
 # 😍 Credits
-### Cloned from [Friday Userbot](github.com/starkgang/fridayuserbot) on 28/01/2021.. Full credits to Friday Developers 
-#### Special thanks To Friday Bot And Dark Cobra Bot a lot
+### Cloned from [Friday Userbot](github.com/starkgang/fridayuserbot) Full credits to Respected Developers 
+#### Special thanks To Friday Bot , Virtual Userbot And Dark Cobra Bot a lot
 ##### ♡ Friday is the best userbot ♡ ~ This is just a remodification.. Original work was done by them
 
  
@@ -42,23 +42,39 @@ So, all respect and credits goes to them
 # 🧙‍♀️ Deploy Guide
 Complete guide on deploying VirtualUserbot to Heroku.
 
-<p align="left"><ba href="https://youtu.be/hMhcKxNi-vw"><img src="https://telegra.ph/file/35c283a78116be8499da0.png" width="300"></a></p> 
-<a href="https://youtu.be/hMhcKxNi-vw"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
+✨ DEPLOY Steps
 
-☆ Video by [TWE](http://techwizardent.com/) ☆
+--> Step 1. 
+
+Make sure that you have HEROKU ACCOUNT if not then make first  by heroku.com then sign up and login ..
+
+--> Step 2. [BOT FATHER]
+Make a simple bot via bot father — go to @botfather >  /newbot >type any name for your bot > username for your bot >> /mybots >> choose your bot >> bot setting >> inline mode >> turn on
+
+--> Step 3. [API ID + HASH]
+
+Take necessay vars such as API HASH , API ID from my.telegram.org  ✨
+Or use @UseTGXBot / @apihashbot
+
+--> Step 4.  [PVT GROUP]
+
+make a group add @missrose_bot & that bot which you make from bot father after that  go to manage group & make history visibe now type /id in group .
+
+--> Step 5.  [FINAL]
+
+now open"repo" hit deploy > fill necessary vars > hit deploy & wait > manage group > resources > turn on dyno button ....
 
 # ❤️ Support
 
-<a href="https://t.me/Infinity_Bots"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/Perman_X"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
-<a href="https://t.me/infinityje"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ### Please Star this repo If you are deploying this Userbot
 
 <p align="left">
   
-  <a href="https://github.com/inukaasith/virtualuserbot">
-    <img src="https://img.shields.io/github/stars/inukaasith/virtualuserbot?style=social">
+  <a href="https://github.com/perman-dev/perman_ub">
+    <img src="https://img.shields.io/github/stars/perman-dev/perman_ub?style=social">
   </a>
 </p>
 
@@ -114,7 +130,7 @@ To English =>
 
 # 🏃‍♂️ Deploying To Heroku
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Inukaasith/virtualuserbot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/perman-dev/perman_ub)
 
 ``` Always try to  Deploy this source. If not you will miss the future updates```
 
@@ -199,7 +215,7 @@ python3 -m virtualuserbot
 # Licence
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
-VirtualUserbot is Free Software: You can use, study share and improve it at your
+PermanUserbot is Free Software: You can use, study share and improve it at your
 will. Specifically you can redistribute and/or modify it under the terms of the
 [GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
 published by the Free Software Foundation, either version 3 of the License, or
@@ -227,6 +243,9 @@ Internal Core Plugins taken.. Helped a lot to fix bugs in source.. Full respect
 - Uniborg - 
 Userbots Made possible. Credits
 
+- Virtual Userbot
+Helps alot.. Respect
+
 - TeleBot - 
 Speed Boosted by the help of this source code.. Credits
 
@@ -237,16 +256,16 @@ Got Fun tools from this.. Respect
 # 🧐 Disclaimer 
 
 ### Use at your Own Risk 😇
-Virtualuserbot don't have any torrent leeching plugins.. So risk of bans in TG is low
+Permanuserbot don't have any torrent leeching plugins.. So risk of bans in TG is low
 But somehow if you get banned or anything happened WE ARE NOT RESPONSIBLE FOR THEM
 
-### Report Errors only to virtualuserbot developers
+### Report Errors only to Permanuserbot developers
 
-There are various plugins in virtualuserbot owned by Friday and other userbots.. 
-All the plugins are reconfigured for for virtualuserbot. So if you have any errors please report only to the virtualuserbot developers
+There are various plugins Permanuserbot owned by Friday and other userbots.. 
+All the plugins are reconfigured for for Permanuserbot. So if you have any errors please report only to the Permanuserbot developers
 
 ### If you are using adult content in the bot or if you harm someone with fun plugins of the bot you might get banned from Telegram. We are not responsible for that 😅
 
 ## ❤️ Made possible by [Friday Project](https://github.com/StarkGang/FridayUserbot) and many other opensource projects.. ❤️
 
-### 😍 Project by [Infinity_Bots](https://t.me/Infinity_Bots)  😍
+### ⚜ Project by [Perman](https://t.me/Perman_X)
