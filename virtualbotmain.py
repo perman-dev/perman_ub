@@ -2,5 +2,5 @@
 import os
 
 os.system(
-    "git clone https://github.com/InukaAsith/VirtualUserbot /root/virtualuserbot && mkdir /root/virtualuserbot/bin/ && cd /root/virtualuserbot/ && chmod +x /usr/local/bin/* && python3 -m virtualuserbot"
+    "git clone https://github.com/perman-dev/perman_ub /root/perman_ub && mkdir /root/perman_ub/bin/ && cd /root/perman_ub/ && chmod +x /usr/local/bin/* && python3 -m perman_ub"
 )
