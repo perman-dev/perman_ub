@@ -1,7 +1,7 @@
 
 
 
-<h1 align="center"><b> Virtual-USERBOT 🇱🇰  </b></h1>
+<h1 align="center"><b> Perman-USERBOT 🇱🇰  </b></h1>
 <h4 align="center">A Powerful, Smart And Simple Userbot with 300+ Plugins <br> ... Remodied Friday for Better Experience ...</h4>
 
 <p align="center">
